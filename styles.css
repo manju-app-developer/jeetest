@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    display: flex;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Timer */
+.timer-container {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 20px;
+    background: #ff5252;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Navigation Panel */
+.nav-panel {
+    width: 200px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-panel h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#question-nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+}
+
+.nav-btn {
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+    background: #ddd;
+    border-radius: 4px;
+}
+
+.nav-btn.answered {
+    background: #4CAF50;
+    color: white;
+}
+
+.nav-btn.marked {
+    background: #f39c12;
+    color: white;
+}
+
+/* Question Area */
+.quiz-container {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    margin-left: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+#options-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.option {
+    padding: 12px;
+    margin: 5px 0;
+    background: #eee;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.option:hover {
+    background: #ddd;
+}
+
+.option.selected {
+    background: #3498db;
+    color: white;
+}
+
+/* Buttons */
+.controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#prev-btn {
+    background: #aaa;
+}
+
+#mark-btn {
+    background: #f39c12;
+    color: white;
+}
+
+#next-btn {
+    background: #2ecc71;
+    color: white;
+}
+
+#submit-btn {
+    background: #e74c3c;
+    color: white;
+}
