@@ -1,33 +1,58 @@
-body {
-    background: linear-gradient(to right, #1e3c72, #2a5298);
-    color: #fff;
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    text-align: center;
 }
 
-.quiz-container {
-    background: rgba(255, 255, 255, 0.1);
+body {
+    background: linear-gradient(135deg, #1f1c2c, #928DAB);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     padding: 20px;
-    border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: auto;
 }
 
+/* Quiz Wrapper */
+.quiz-wrapper {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+    animation: fadeIn 1s ease-in-out;
+    text-align: center;
+    color: white;
+}
+
+/* Quiz Title */
 .quiz-title {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 15px;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Question Box */
+#question-box {
+    margin-bottom: 20px;
 }
 
 .question-image {
     max-width: 100%;
-    height: auto;
     border-radius: 10px;
     margin-bottom: 15px;
-    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Options */
 #options-container {
     display: flex;
     flex-direction: column;
@@ -35,33 +60,110 @@ body {
 }
 
 .option-btn {
-    background: #fff;
-    color: #1e3c72;
-    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
     border-radius: 8px;
+    transition: all 0.3s ease-in-out;
     cursor: pointer;
-    transition: 0.3s;
-    border: 1px solid transparent;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 .option-btn:hover {
-    background: #ff9800;
-    color: #fff;
+    background: rgba(255, 255, 255, 0.4);
+    transform: scale(1.05);
 }
 
-.option-btn.selected {
-    background: #ff9800;
-    color: #fff;
+.option-btn.correct {
+    background: #4CAF50;
+    color: white;
+    animation: correctGlow 0.5s ease-in-out infinite alternate;
+}
+
+.option-btn.wrong {
+    background: #D32F2F;
+    color: white;
+    animation: wrongShake 0.3s ease-in-out;
+}
+
+/* Integer Input */
+#integer-answer {
+    display: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
     border: 2px solid white;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
 }
 
-.btn-primary {
-    background: #ff9800;
+/* Next Button */
+#next-btn {
+    background: linear-gradient(90deg, #ff9966, #ff5e62);
     border: none;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    border-radius: 10px;
     cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-.btn-primary:disabled {
-    background: gray;
-    cursor: not-allowed;
+#next-btn:hover {
+    background: linear-gradient(90deg, #ff5e62, #ff9966);
+    transform: scale(1.05);
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes correctGlow {
+    from {
+        box-shadow: 0 0 10px rgba(76, 175, 80, 0.5);
+    }
+    to {
+        box-shadow: 0 0 20px rgba(76, 175, 80, 1);
+    }
+}
+
+@keyframes wrongShake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .quiz-wrapper {
+        padding: 20px;
+    }
+
+    .quiz-title {
+        font-size: 24px;
+    }
+
+    .option-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
+
+    #next-btn {
+        font-size: 16px;
+        padding: 10px;
+    }
 }
