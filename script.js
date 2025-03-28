@@ -1,72 +1,61 @@
 let questions = [];
 let currentQuestionIndex = 0;
-let score = 0;
 
-async function loadQuestions() {
-    try {
-        const response = await fetch('questions.json');
-        questions = await response.json();
-        startQuiz();
-    } catch (error) {
-        console.error('Error loading questions:', error);
-    }
-}
+document.addEventListener("DOMContentLoaded", () => {
+    fetch("questions.json")
+        .then(response => response.json())
+        .then(data => {
+            questions = data;
+            loadQuestion();
+        })
+        .catch(error => console.error("Error loading questions:", error));
 
-function startQuiz() {
-    currentQuestionIndex = 0;
-    score = 0;
-    showQuestion();
-}
-
-function showQuestion() {
-    resetState();
-    let question = questions[currentQuestionIndex];
-    document.getElementById("question-text").innerText = question.question;
-
-    let imageElement = document.getElementById("question-image");
-    if (question.image) {
-        imageElement.src = question.image;
-        imageElement.style.display = "block";
-    } else {
-        imageElement.style.display = "none";
-    }
-
-    question.options.forEach(option => {
-        let button = document.createElement("button");
-        button.innerText = option;
-        button.classList.add("btn");
-        button.addEventListener("click", () => selectAnswer(button, question.answer));
-        document.getElementById("answer-buttons").appendChild(button);
-    });
-
-    document.getElementById("next-btn").style.display = "none";
-}
-
-function resetState() {
-    document.getElementById("answer-buttons").innerHTML = "";
-}
-
-function selectAnswer(selectedButton, correctAnswer) {
-    let isCorrect = selectedButton.innerText === correctAnswer;
-    if (isCorrect) {
-        selectedButton.style.backgroundColor = "green";
-        score++;
-    } else {
-        selectedButton.style.backgroundColor = "red";
-    }
-
-    document.getElementById("next-btn").style.display = "block";
-}
-
-document.getElementById("next-btn").addEventListener("click", () => {
-    currentQuestionIndex++;
-    if (currentQuestionIndex < questions.length) {
-        showQuestion();
-    } else {
-        document.getElementById("question-text").innerText = `Quiz Completed! Your score: ${score} / ${questions.length}`;
-        document.getElementById("answer-buttons").innerHTML = "";
-        document.getElementById("next-btn").style.display = "none";
-    }
+    document.getElementById("next-btn").addEventListener("click", nextQuestion);
 });
 
-loadQuestions();
+function loadQuestion() {
+    const questionContainer = document.getElementById("question-container");
+    const questionText = document.getElementById("question-text");
+    const optionsContainer = document.getElementById("options-container");
+    const integerInput = document.getElementById("integer-answer");
+    const questionImage = document.getElementById("question-image");
+
+    optionsContainer.innerHTML = "";
+    integerInput.style.display = "none";
+
+    const currentQuestion = questions[currentQuestionIndex];
+
+    questionText.textContent = currentQuestion.question;
+
+    if (currentQuestion.image) {
+        questionImage.src = currentQuestion.image;
+        questionImage.style.display = "block";
+    } else {
+        questionImage.style.display = "none";
+    }
+
+    if (currentQuestion.type === "MCQ") {
+        currentQuestion.options.forEach(option => {
+            const button = document.createElement("button");
+            button.classList.add("option-btn");
+            button.textContent = option;
+            button.addEventListener("click", () => selectOption(option));
+            optionsContainer.appendChild(button);
+        });
+    } else if (currentQuestion.type === "Integer") {
+        integerInput.style.display = "block";
+    }
+}
+
+function selectOption(option) {
+    console.log("Selected:", option);
+}
+
+function nextQuestion() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        loadQuestion();
+    } else {
+        alert("Quiz Completed!");
+    }
+}
