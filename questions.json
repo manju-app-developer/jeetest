@@ -1,0 +1,831 @@
+[
+    {
+        "question_id": 1,
+        "question": "Let O be the origin, the point A be z1 = √3 + 2√2i, the point B (z2) be such that √3|z2| = |z1| and arg(z2) = arg(z1) + π. Then",
+        "options": [
+            "Area of triangle ABO is 11√3 / 11",
+            "ABO is an obtuse angled isosceles triangle",
+            "Area of triangle ABO is 11",
+            "ABO is a scalene triangle"
+        ],
+        "answer": "ABO is an obtuse angled isosceles triangle",
+        "type": "MCQ",
+        "image": "q1.jpg"
+    },
+    {
+        "question_id": 2,
+        "question": "Let f: R → R be a function defined by f(x) = (2 + 3a)x² + (a-2)x + b, a ≠ 1. If f(x + y) = f(x) + f(y) + 1 - (2/7)xy, then the value of 28 ∑i=1 |f(i)| is:",
+        "options": [
+            "545",
+            "715",
+            "735",
+            "675"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q2.jpg"
+    },
+    {
+        "question_id": 3,
+        "question": "Let ABCD be a trapezium whose vertices lie on the parabola y² = 4x. Let the sides AD and BC of the trapezium be parallel to the y-axis. If the diagonal AC is of length 25/8 and it passes through the point (1,0), then the area of ABCD is:",
+        "options": [
+            "75/4",
+            "25/8",
+            "125/8",
+            "75/8"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q3.jpg"
+    },
+    {
+        "question_id": 4,
+        "question": "The sum of all local minimum values of the function f(x) is:",
+        "options": [
+            "157/72",
+            "131/72",
+            "167/72",
+            "121/72"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q4.jpg"
+    },
+    {
+        "question_id": 5,
+        "question": "Let ^nCr-1 = 28, ^nCr = 56 and ^nCr+1 = 70. Let A(4 cos t, 4 sin t), B(2 sin t, -2 cos t) and C(3r - n, r² - n -1) be the vertices of a triangle ABC, where t is a parameter. If (3x - 1)² + (3y)² = α, is the locus of the centroid of triangle ABC, then α equals:",
+        "options": [
+            "6",
+            "18",
+            "8",
+            "20"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q5.jpg"
+    },
+    {
+        "question_id": 6,
+        "question": "Let the equation of the circle, which touches x-axis at the point (a, 0), a > 0 and cuts off an intercept of length b on y-axis be x² + y² - αx + βy + γ = 0. If the circle lies below x-axis, then the ordered pair (2a, b²) is equal to:",
+        "options": [
+            "(γ, β² - 4α)",
+            "(α, β² + 4γ)",
+            "(γ, β² + 4α)",
+            "(α, β² - 4γ)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q6.jpg"
+    },
+    {
+        "question_id": 7,
+        "question": "If f(x) = 2^(x/√2), x ∈ R, then ∑k=1 f(k/82) is equal to:",
+        "options": [
+            "1.81√2",
+            "41",
+            "82",
+            "81/2"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q7.jpg"
+    },
+    {
+        "question_id": 8,
+        "question": "Two numbers k₁ and k₂ are randomly chosen from the set of natural numbers. Then, the probability that the value of i^k1 + i^k2 (i = √-1) is non-zero, equals:",
+        "options": [
+            "1/2",
+            "1/4",
+            "3/4",
+            "1"
+        ],
+        "answer": "3/4",
+        "type": "MCQ",
+        "image": "q8.jpg"
+    },
+    {
+        "question_id": 9,
+        "question": "If the image of the point (4, 4, 3) in the line (x-1)/2 = (y-2)/T = (z-1)/3 is (α, β, γ), then α + β + γ is equal to",
+        "options": ["9", "12", "7", "8"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q9.jpg"
+    },
+    {
+        "question_id": 10,
+        "question": "cos(sin⁻¹ 3/5 + sin⁻¹ 5/13 + sin⁻¹ 33/65) is equal to",
+        "options": ["1", "2", "32/65", "33/65"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q10.jpg"
+    },
+    {
+        "question_id": 11,
+        "question": "Let A(x, y, z) be a point in xy-plane, which is equidistant from three points (0,3,2), (2,0,3) and (0,0,1). Let B = (1,4,-1) and C = (2,0,-2). Then among the statements (S1) : ΔABC is an isosceles right-angled triangle, and (S2) : the area of ΔABC is 9√2/2",
+        "options": ["both are true", "only (S2) is true", "only (S1) is true", "both are false"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q11.jpg"
+    },
+    {
+        "question_id": 12,
+        "question": "The area (in sq. units) of the region {(x,y) : 0 ≤ y ≤ 2|x| + 1, 0 ≤ y ≤ x² + 1, |x| ≤ 3} is",
+        "options": ["80/3", "32/3", "64/3", "17/3"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q12.jpg"
+    },
+    {
+        "question_id": 13,
+        "question": "The sum of the squares of all the roots of the equation x² + |2x - 3| - 4 = 0, is",
+        "options": ["3(3 - √2)", "6(3 - √2)", "6(2 - √2)", "4(3 - √2)"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q13.jpg"
+    },
+    {
+        "question_id": 14,
+        "question": "Let Tr be the rᵗʰ term of an A.P. If for some m, Tm = 25/3, T25 = 31/3, and 20 ∑ᵣ₌₁ Tᵣ = 13, then 5 m ∑ᵣ₌ₘ Tᵣ is equal to",
+        "options": ["98", "126", "142", "112"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q14.jpg"
+    },
+    {
+        "question_id": 15,
+        "question": "Three defective oranges are accidently mixed with seven good ones and on looking at them, it is not possible to differentiate them. Two oranges are drawn at random from the lot. If x denote the number of defective oranges, then the variance of x is",
+        "options": ["28/75", "18/25", "26/75", "14/25"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q15.jpg"
+    },
+    {
+        "question_id": 16,
+        "question": "Let for some function y = f(x), ∫₀¹ ∫₀² t f(t) dt dx = x² f(x), x > 0 and f(2) = 3. Then f(6) is equal to",
+        "options": ["1", "3", "6", "2"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q16.jpg"
+    },
+    {
+        "question_id": 17,
+        "question": "If ∫π/4⁷ (9π² - cos²x) / (1 + e^x²) dx = π(απ² + β), α, β ∈ Z, then (α + β)² equals",
+        "options": ["64", "196", "144", "100"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q17.jpg"
+    },
+    {
+        "question_id": 18,
+        "question": "Let {aₙ} be a sequence such that a₀ = 0, a₁ = 1/2 and 2aₙ₊₂ = 5aₙ₊₁ - 3aₙ, n = 0,1,2,3,.... Then ∑ₖ₌₁¹⁰⁰ aₖ is equal to",
+        "options": ["A", "B", "C", "D"],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q18.jpg"
+    },
+    {
+        "question_id": 19,
+        "question": "The number of different 5 digit numbers greater than 50000 that can be formed using the digits 0, 1, 2, 3, 4, 5, 6, 7, such that the sum of their first and last digits should not be more than 8, is",
+        "options": ["4608", "5720", "5719", "4607"],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 20,
+        "question": "The relation R = {(x, y) : x, y ∈ Z and x + y is even } is:",
+        "options": [
+            "reflexive and symmetric but not transitive",
+            "an equivalence relation",
+            "symmetric and transitive but not reflexive",
+            "reflexive and transitive but not symmetric"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 21,
+        "question": "Let f(x) = { 3x, x < 0; min(1 + x + ⌊x⌋, x + 2⌊x⌋), 0 ≤ x ≤ 2; 5, x > 2 }. If α and β are the number of points where f is not continuous and not differentiable, respectively, then α + β equals",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 22,
+        "question": "Let M denote the set of all real matrices of order 3 × 3 and let S = {−3, −2, −1, 1, 2}. Let S₁ = {A = [aᵢⱼ] ∈ M : A = Aᵀ and aᵢⱼ ∈ S, ∀i,j}, S₂ = {A = [aᵢⱼ] ∈ M : A = −Aᵀ and aᵢⱼ ∈ S, ∀i,j}, S₃ = {A = [aᵢⱼ] ∈ M : a₁₁ + a₂₂ + a₃₃ = 0 and aᵢⱼ ∈ S, ∀i,j}. If n(S₁ ∪ S₂ ∪ S₃) = 125α, then α equals",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 23,
+        "question": "If α = 1 + ∑ₙ₌₁⁶ (-3)ⁿ⁻¹ ¹²C₂ₙ₋₁, then the distance of the point (12, √3) from the line αx - √3y + 1 = 0 is",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 24,
+        "question": "Let E₁ : x²/9 + y²/4 = 1 be an ellipse. Ellipses Eᵢ's are constructed such that their centres and eccentricities are same as that of E₁, and the length of minor axis of Eᵢ is the length of major axis of Eᵢ₊₁(i ≥ 1). If Aᵢ is the area of the ellipse Eᵢ, then ∑ₙ₌₁∞ Aᵢ is equal to",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 25,
+        "question": "Let ā = î + ĵ + k̂, b̄ = 2î + 2ĵ + k̂ and c̄ = ā × b̄. If c̄ is a vector such that ā ⋅ c̄ = |c̄|, [c̄ - 2ā]² = 8 and the angle between c̄ and d̄ is π/4, then |10 - 3b̄ ⋅ c̄| + |d̄ × c̄|² is equal to",
+        "options": [],
+        "answer": null,
+        "type": "Integer"
+    },
+    {
+        "question_id": 26,
+        "question": "Three infinitely long wires with linear charge density λ are placed along the x-axis, y-axis and z-axis respectively. Which of the following denotes an equipotential surface?",
+        "options": [
+            "xyz = constant",
+            "xy + yz + zx = constant",
+            "(x² + y²)(y² + z²)(z² + x²) = constant",
+            "(x + y)(y + z)(z + x) = constant"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 27,
+        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R\n\nAssertion A: A sound wave has higher speed in solids than gases.\nReason R: Gases have higher value of Bulk modulus than solids.\n\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true",
+            "Both A and R are true and R is the correct explanation of A"
+        ],
+        "answer": "Both A and R are true but R is NOT the correct explanation of A",
+        "type": "MCQ",
+        "image": "q27.jpg"
+    },
+    {
+        "question_id": 28,
+        "question": "Two capacitors C₁ and C₂ are connected in parallel to a battery. Charge-time graph is shown below for the two capacitors. The energy stored with them are U₁ and U₂, respectively. Which of the given statements is true?",
+        "options": [
+            "C₂ > C₁, U₂ < U₁",
+            "C₁ > C₂, U₁ > U₂",
+            "C₁ > C₂, U₁ < U₂",
+            "C₂ > C₁, U₂ > U₁"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 29,
+        "question": "A thin prism P₁ with angle 4° made of glass having refractive index 1.54, is combined with another thin prism P₂ made of glass having refractive index 1.72 to get dispersion without deviation. The angle of the prism P₂ in degrees is",
+        "options": [
+            "3°",
+            "16/3",
+            "4",
+            "1.5"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 30,
+        "question": "A particle of mass 'm' and charge 'q' is fastened to one end 'A' of a massless string having equilibrium length l, whose other end is fixed at point 'O'. The whole system is placed on a frictionless horizontal plane and is initially at rest. If uniform electric field is switched on along the direction as shown in figure, then the speed of the particle when it crosses the x-axis is",
+        "options": [
+            "√(qE l / 2 m)",
+            "√(qE l / m)",
+            "√(qE l / 4 m)",
+            "√(2qE l / m)"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 31,
+        "question": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R.\n\nAssertion A: In a central force field, the work done is independent of the path chosen.\nReason R: Every force encountered in mechanics does not have an associated potential energy.\n\nIn the light of the above statements, choose the most appropriate answer from the options given below",
+        "options": [
+            "Both A and R are true but R is NOT the correct explanation of A",
+            "A is true but R is false",
+            "A is false but R is true",
+            "Both A and R are true and R is the correct explanation of A"
+        ],
+        "answer": null,
+        "type": "MCQ"
+    },
+    {
+        "question_id": 32,
+        "question": "Choose the correct nuclear process from the below options [p: proton, n: neutron, e⁻: electron, e⁺: positron, ν: neutrino, ν̅: antineutrino]",
+        "options": [
+            "n → p + e⁺ + ν̅",
+            "n → p + e⁻ + ν",
+            "n → p + e⁺ + ν",
+            "n → p + e⁻ + ν̅"
+        ],
+        "answer": "n → p + e⁻ + ν̅",
+        "type": "MCQ",
+        "image": "q32.jpg"
+    },
+    {
+        "question_id": 33,
+        "question": "A hemispherical vessel is completely filled with a liquid of refractive index μ. A small coin is kept at the lowest point (O) of the vessel as shown in the figure. The minimum value of the refractive index of the liquid so that a person can see the coin from point E (at the level of the vessel) is",
+        "options": [
+            "√3",
+            "√3/2",
+            "3/2",
+            "√3/2"
+        ],
+        "answer": "3/2",
+        "type": "MCQ",
+        "image": "q33.jpg"
+    },
+    {
+        "question_id": 34,
+        "question": "A Carnot engine (E) is working between two temperatures 473 K and 273 K. In a new system, two engines - engine E₁ works between 473 K to 373 K and engine E₂ works between 373 K to 273 K. If η₁₂, η₁, and η₂ are the efficiencies of the engines E, E₁, and E₂, respectively, then",
+        "options": [
+            "η₁₂ = η₁η₂",
+            "η₁₂ ≥ η₁ + η₂",
+            "η₁₂ = η₁ + η₂",
+            "η₁₂ < η₁ + η₂"
+        ],
+        "answer": "η₁₂ < η₁ + η₂",
+        "type": "MCQ",
+        "image": "q34.jpg"
+    },
+    {
+        "question_id": 35,
+        "question": "Consider a long thin conducting wire carrying a uniform current I. A particle having mass 'M' and charge 'q' is released at a distance 'a' from the wire with a speed v₀ along the direction of current in the wire. The particle gets attracted to the wire due to magnetism. The particle turns round when it is at a distance x from the wire. The value of x is [μ₀ is vacuum permeability]",
+        "options": [
+            "a e^(−4πm v₀ / qμ₀ I)",
+            "a [1 − (mv₀ / 2qμ₀ I)]",
+            "a [1 − (mv₀ / qμ₀ I)]",
+            "a / π"
+        ],
+        "answer": "a [1 − (mv₀ / qμ₀ I)]",
+        "type": "MCQ",
+        "image": "q35.jpg"
+    },
+    {
+        "question_id": 36,
+        "question": "A wire of resistance R is bent into an equilateral triangle and an identical wire is bent into a square. The ratio of resistance between the two end points of an edge of the triangle to that of the square is",
+        "options": [
+            "8/9",
+            "27/32",
+            "32/27",
+            "9/8"
+        ],
+        "answer": "9/8",
+        "type": "MCQ",
+        "image": "q36.jpg"
+    },
+    {
+        "question_id": 37,
+        "question": "In the experiment for measurement of viscosity 'η' of a given liquid with a ball having radius R, consider the following statements. A. Graph between terminal velocity V and R will be a parabola. B. The terminal velocities of different diameter balls are constant for a given liquid. C. Measurement of terminal velocity is dependent on the temperature. D. This experiment can be utilized to assess the density of a given liquid. Choose the correct answer from the options given below:",
+        "options": [
+            "A, B and E Only",
+            "B, D and E Only",
+            "A, C and D Only",
+            "C, D and E Only"
+        ],
+        "answer": "C, D and E Only",
+        "type": "MCQ",
+        "image": "q37.jpg"
+    },
+    {
+        "question_id": 38,
+        "question": "Due to the presence of an em-wave whose electric component is given by E = 100 sin(ωt − kx) NC⁻¹, a cylinder of length 200 cm holds a certain amount of em-energy inside it. If another cylinder of the same length but half the diameter of the previous one holds the same amount of em-energy, the magnitude of the electric field of the corresponding em-wave should be modified as",
+        "options": [
+            "400 sin(ωt − kx) NC⁻¹",
+            "200 sin(ωt − kx) NC⁻¹",
+            "50 sin(ωt − kx) NC⁻¹",
+            "25 sin(ωt − kx) NC⁻¹"
+        ],
+        "answer": "200 sin(ωt − kx) NC⁻¹",
+        "type": "MCQ",
+        "image": "q38.jpg"
+    },
+    {
+        "question_id": 39,
+        "question": "A bead of mass 'm' slides without friction on the wall of a vertical circular hoop of radius 'R' as shown in the figure. The bead moves under the combined action of gravity and a massless spring (k) attached to the bottom of the hoop. The equilibrium length of the spring is 'R'. If the bead is released from the top of the hoop with (negligible) zero initial speed, velocity of bead, when the length of spring becomes 'R', would be (spring constant is 'k', g is acceleration due to gravity)?",
+        "options": [
+            "√(3Rg + kR²/m)",
+            "2√(gR + kR²/m)",
+            "√(2Rg + kR²/m)",
+            "√(2Rg + 4kR²/m)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q39.jpg"
+    },
+    {
+        "question_id": 40,
+        "question": "Find the equivalent resistance between two ends of the following circuit.",
+        "options": [
+            "1/3",
+            "1/6",
+            "1/2",
+            "1/6"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q40.jpg"
+    },
+    {
+        "question_id": 41,
+        "question": "Consider the following statements: \nA. Surface tension arises due to extra energy of the molecules at the interior as compared to the molecules at the surface of a liquid. \nB. As the temperature of liquid rises, the coefficient of viscosity increases. \nC. As the temperature of gas increases, the coefficient of viscosity increases. \nD. The onset of turbulence is determined by Reynold's number. \nE. In a steady flow, two streamlines never intersect. \nChoose the correct answer from the options given below:",
+        "options": [
+            "C, D, E Only",
+            "A, D, E Only",
+            "B, C, D Only",
+            "A, B, C Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q41.jpg"
+    },
+    {
+        "question_id": 42,
+        "question": "The center of mass of a thin rectangular plate (fig - x) with sides of length a and b, whose mass per unit area (σ) varies as σ = (σ₀ x / ab), where σ₀ is a constant, would be:",
+        "options": [
+            "(3/4 a, b/2)",
+            "(a, b/2)",
+            "(3/4 a, 2/3 b)",
+            "(3/4 a, 3/8 b)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q42.jpg"
+    },
+    {
+        "question_id": 43,
+        "question": "Which of the following circuits has the same output as that of the given circuit?",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q43.jpg"
+    },
+    {
+        "question_id": 44,
+        "question": "For a particular ideal gas, which of the following graphs represents the variation of mean squared velocity of the gas molecules with temperature?",
+        "options": [
+            "Option 1",
+            "Option 2",
+            "Option 3",
+            "Option 4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q44.jpg"
+    },
+    {
+        "question_id": 45,
+        "question": "A proton of mass ‘mp’ has the same energy as that of a photon of wavelength ‘λ’. If the proton is moving at non-relativistic speed, then the ratio of its de Broglie wavelength to the wavelength of the photon is:",
+        "options": [
+          "λ / c √(E / mp)",
+          "λ √(E / mp)",
+          "λ / (2c) √(E / mp)",
+          "λ / c √(E / 2mp)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q45.jpg"
+    },
+    {
+        "question_id": 46,
+        "question": "A double slit interference experiment performed with a light of wavelength 600 nm forms an interference fringe pattern on a screen with 10th bright fringe having its centre at a distance of 10 mm from the central maximum. Distance of the centre of the same 10th bright fringe from the central maximum when the source of light is replaced by another source of wavelength 660 nm would be:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q46.jpg"
+    },
+    {
+        "question_id": 47,
+        "question": "In a measurement, it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of [M^a L^b T^c]. If b = -3, the value of c is:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q47.jpg"
+    },
+    {
+        "question_id": 48,
+        "question": "A tiny metallic rectangular sheet has length and breadth of 5 mm and 2.5 mm, respectively. Using a specially designed screw gauge which has pitch of 0.75 mm and 15 divisions in the circular scale, you are asked to find the area of the sheet. In this measurement, the maximum fractional error will be 100/x where x is:",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q48.jpg"
+    },
+    {
+        "question_id": 49,
+        "question": "Two iron solid discs of negligible thickness have radii R1 and R2 and moment of inertia I1 and I2, respectively. For R2 = 2R1, the ratio of I1 and I2 would be 1/x, where x =",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q49.jpg"
+    },
+    {
+        "question_id": 50,
+        "question": "The moment of inertia of a solid disc rotating along its diameter is 2.5 times higher than the moment of inertia of a ring rotating in a similar way. The moment of inertia of a solid sphere which has the same radius as the disc and rotating in a similar way, is n times higher than the moment of inertia of the given ring. Here, n =",
+        "options": [],
+        "answer": null,
+        "type": "Integer",
+        "image": "q50.jpg"
+    },
+    {
+        "question_id": 51,
+        "question": "Given below are two statements:\nStatement I: D-glucose pentaacetate reacts with 2,4-dinitrophenylhydrazine.\nStatement II: Starch, on heating with concentrated sulfuric acid at 100°C and 2-3 atmosphere pressure, produces glucose.\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+          "Statement I is false but Statement II is true",
+          "Both Statement I and Statement II are false",
+          "Both Statement I and Statement II are true",
+          "Statement I is true but Statement II is false"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q51.jpg"
+    },
+    {
+        "question_id": 52,
+        "question": "Both acetaldehyde and acetone (individually) undergo which of the following reactions?\nA. Iodoform Reaction\nB. Cannizzaro Reaction\nC. Aldol Condensation\nD. Tollens' Test\nE. Clemmensen Reduction\nChoose the correct answer from the options given below:",
+        "options": [
+          "A, B and D Only",
+          "C and E Only",
+          "A, C and E Only",
+          "B, C and D Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q52.jpg"
+    },
+    {
+        "question_id": 53,
+        "question": "Which of the following oxidation reactions are carried out by both K₂Cr₂O₇ and KMnO₄ in acidic medium?\nA. I⁻ → I₂\nB. S²⁻ → S\nC. Fe²⁺ → Fe³⁺\nD. IO₃⁻ → I₂\nE. S₂O₃²⁻ → SO₄²⁻\nChoose the correct answer from the options given below:",
+        "options": [
+          "B and C Only",
+          "D and E Only",
+          "A, D and E Only",
+          "A, B and C Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q53.jpg"
+    },
+    {
+        "question_id": 54,
+        "question": "A molecule ('P') on treatment with acid undergoes rearrangement and gives ('Q'). ('Q') on ozonolysis followed by reflux under alkaline conditions gives ('R'). The structure of ('R') is given below. The structure of ('P') is:",
+        "options": [
+          "Option 1: Benzocyclobutene with a methyl group",
+          "Option 2: Cyclopentene with an isopropyl group",
+          "Option 3: Bicyclo[2.2.1]heptane with two methyl groups",
+          "Option 4: Cyclopentanol with an isopropyl group"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q54.jpg"
+    },
+    {
+        "question_id": 55,
+        "question": "The correct order of stability of the following carbocations is:",
+        "options": [
+          "C > B > A > D",
+          "A > B > C > D",
+          "B > C > A > D",
+          "C > A > B > D"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q55.jpg"
+    },
+    {
+        "question_id": 56,
+        "question": "The products A and B in the following reactions, respectively are:\nA → CH3 - CH2 - Br → B",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q56.jpg"
+    },
+    {
+        "question_id": 57,
+        "question": "In a multielectron atom, which of the following orbitals described by three quantum numbers will have the same energy in absence of electric and magnetic fields?\nA. n = 1, l = 0, m1 = 0\nB. n = 2, l = 0, m1 = 0\nC. n = 2, l = 1, m1 = 1\nD. n = 3, l = 2, m1 = 1\nE. n = 3, l = 2, m1 = 0\nChoose the correct answer from the options given below:",
+        "options": [
+          "B and C Only",
+          "A and B Only",
+          "C and D Only",
+          "D and E Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q57.jpg"
+    },
+    {
+        "question_id": 58,
+        "question": "A weak acid HA has a degree of dissociation x. Which option gives the correct expression of ( pH - pKa )?",
+        "options": [
+          "0",
+          "log(1 + 2x)",
+          "log(1 - x)",
+          "log(1 - x / x)"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q58.jpg"
+    },
+    {
+        "question_id": 59,
+        "question": "The molecules having square pyramidal geometry are:",
+        "options": [
+          "BrF5 & PCl5",
+          "SbF5 & PCl5",
+          "SbF5 & XeOF4",
+          "BrF5 & XeOF4"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q59.jpg"
+    },
+    {
+        "question_id": 60,
+        "question": "Consider the following elements In, Tl, Al, Pb, Sn, and Ge. The most stable oxidation states of elements with highest and lowest first ionization enthalpies, respectively, are:",
+        "options": [
+          "+4 and +3",
+          "+4 and +2",
+          "+3 and +4",
+          "+2 and +3"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q60.jpg"
+    },
+    {
+        "question_id": 61,
+        "question": "For a given reaction R → P, t1/2 is related to [A]0 as given in the table:\nGiven: log 2 = 0.30\nWhich of the following is true?\nA. The order of the reaction is 1/2.\nB. If [A]0 is 1 M, then t1/2 is 200√10 min.\nC. The order of the reaction changes to 1 if the concentration of reactant changes from 0.100 M to 0.500 M.\nD. t1/2 is 800 min for [A]0 = 1.6M\nChoose the correct answer from the options given below:",
+        "options": [
+          "A and C Only",
+          "A, B and D Only",
+          "C and D Only",
+          "A and B Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q61.jpg"
+    },
+    {
+        "question_id": 62,
+        "question": "Match the LIST-I with LIST-II\nLIST-I (Redox Reaction) \nA. CH4 + 2O2 → CO2 + 2H2O\nB. 2NaHg → 2Na + Hg2\nC. 2V2O5 + 5Ca → 4V + 5CaO\nD. 2H2O2 → 2H2O + O2\nLIST-II (Type of Redox Reaction)\nI. Disproportionation reaction\nII. Combination reaction\nIII. Decomposition reaction\nIV. Displacement reaction\nChoose the correct answer from the options given below:",
+        "options": [
+          "A-II, B-III, C-I, D-IV",
+          "A-III, B-IV, C-I, D-I",
+          "A-IV, B-I, C-II, D-III",
+          "A-II, B-III, C-IV, D-I"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q62.jpg"
+    },
+    {
+        "question_id": 63,
+        "question": "Given below are two statements:\nStatement I: In the oxalic acid vs KMnO4 (in the presence of dil H2SO4) titration, the solution needs to be heated initially to 60°C, but no heating is required in Ferrous ammonium sulphate (FAS) vs KMnO4 titration (in the presence of dil H2SO4).\nStatement II: In oxalic acid vs KMnO4 titration, the initial formation of MnSO4 takes place at high temperature, which then acts as a catalyst for further reaction. In the case of FAS vs KMnO4, heating oxidizes Fe2+ into Fe3+ by oxygen of air and error may be introduced in the experiment.\nIn the light of the above statements, choose the correct answer from the options given below:",
+        "options": [
+          "Both Statement I and Statement II are false",
+          "Both Statement I and Statement II are true",
+          "Statement I is false but Statement II is true",
+          "Statement I is true but Statement II is false"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q63.jpg"
+    },
+    {
+        "question_id": 64,
+        "question": "The metal in whose electronic configuration is not affected by the nature of the ligand and which gives orange violet colour in non-luminous flame under hot condition in borax bead test is:",
+        "options": [
+          "Mn2+",
+          "Cr3+",
+          "Ni2+",
+          "Ti3+"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q64.jpg"
+    },
+    {
+        "question_id": 65,
+        "question": "The compounds that produce CO2 with aqueous NaHCO3 solution are:\nChoose the correct answer from the options given below:",
+        "options": [
+          "A, C and D Only",
+          "A, B and E Only",
+          "A and C Only",
+          "A and B Only"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q65.jpg"
+     },
+     {
+        "question_id": 66,
+        "question": "What is the freezing point depression constant of a solvent, 50 g of which contain 1 g non volatile solute (molar mass 256 g mol−1) and the decrease in freezing point is 0.40 K?",
+        "options": [
+          "3.72 K kg mol−1",
+          "1.86 K kg mol−1",
+          "4.43 K kg mol−1",
+          "5.12 K kg mol−1"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q66.jpg"
+     },
+     {
+        "question_id": 67,
+        "question": "Given below are two statements:\nStatement I: The given compound will undergo alkaline hydrolysis at a faster rate than the other compound.\nStatement II: Intramolecular substitution takes place first by involving lone pair of electrons on nitrogen.\nIn the light of the above statements, choose the most appropriate answer from the options given below:",
+        "options": [
+          "Statement I is incorrect but Statement II is correct",
+          "Statement I is correct but Statement II is incorrect",
+          "Both Statement I and Statement II are correct",
+          "Both Statement I and Statement II are incorrect"
+        ],
+        "answer": null,
+        "type": "MCQ",
+        "image": "q67.jpg"
+     },
+     {
+        "question_id": 68,
+        "question": "Ice and water are placed in a closed container at a pressure of 1 atm and temperature 273.15 K. If pressure of the system is increased 2 times, keeping temperature constant, then identify correct observation from following:",
+        "options": [
+          "Volume of system increases",
+          "The solid phase (ice) disappears completely",
+          "Liquid phase disappears completely",
+          "The amount of ice decreases"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q68.jpg"
+     },
+     {
+        "question_id": 69,
+        "question": "The incorrect decreasing order of atomic radii is:",
+        "options": [
+          "Si > P > Cl > F",
+          "Be > Mg > Al > Si",
+          "Al > B > N > F",
+          "Mg > Al > C > O"
+        ],
+        "answer": null,
+        "type": "MCQ"
+        "image": "q69.jpg"
+     },
+     {
+        "question_id": 70,
+        "question": "Consider 'n' is the number of lone pair of electrons present in the equatorial position of the most stable structure of ClF3. The ions from the following with 'n' number of unpaired electrons are A. V3+ B. Ti3+ C. Cu2+ D. Ni2+ E. Ti2+ Choose the correct answer from the options given below:",
+        "options": [
+          "A and C Only",
+          "A, D and E Only",
+          "B and C Only",
+          "B and C Only"
+        ],
+        "answer": null,
+        "type": "Integer"
+        "image": "q70.jpg"
+     },
+     {
+        "question_id": 71,
+        "question": "The formation enthalpies, ΔH_f° for H(g) and O(g) are 220.0 and 250.0 kJ mol−1, respectively, at 298.15 K, and ΔH_f° for H2O(g) is -242.0 kJ mol−1 at the same temperature. The average bond enthalpy of the O-H bond in water at 298.15 K is ______ kJ mol−1 (nearest integer).",
+        "answer": null,
+        "type": "Integer"
+        "image": "q71.jpg"
+     },
+     {
+        "question_id": 72,
+        "question": "The molarity of a 70% (mass/mass) aqueous solution of a monobasic acid (X) is ______ x10−1 M (Nearest integer) [Given: Density of aqueous solution of (X) is 1.25 g mL−1 Molar mass of the acid is 70 g mol−1]",
+        "answer": null,
+        "type": "Integer"
+        "image": "q72.jpg"
+     },
+     {
+        "question_id": 73,
+        "question": "Consider the following sequence of reactions:\nChlorobenzene → (i) Mg, dry ether → (ii) CO2, H3O+ → A → (iii) NH3, Δ → B → (iv) Br2, NaOH → B\n11.25 mg of chlorobenzene will produce ______ x10−1 mg of product B. (Consider the reactions result in complete conversion.) [Given molar mass of C, H, O, N and Cl as 12, 1, 16, 14 and 35.5 g mol−1 respectively]",
+        "answer": null,
+        "type": "Integer"
+        "image": "q73.jpg"
+     },
+     {
+        "question_id": 74,
+        "question": "Quantitative analysis of an organic compound (X) shows the following % composition: C: 14.5%, Cl: 64.461%, H: 1.8%. The empirical formula mass of the compound (X) is ______ x10−1 (Given molar mass in g mol−1).",
+        "answer": null,
+        "type": "Integer"
+        "image": "q74.jpg"
+     },
+     {
+        "question_id": 75,
+        "question": "The number of chiral centers in the given compound is ______ (nearest integer).",
+        "answer": null,
+        "type": "Integer"
+        "image": "q75.jpg"
+     }
+]
+
