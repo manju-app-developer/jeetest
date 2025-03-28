@@ -3,24 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Advanced Quiz</title>
+    <title>Ultimate Quiz Challenge</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    <!-- External CSS -->
     <link rel="stylesheet" href="style.css">
-    <script defer src="script.js"></script>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+
+    <!-- JavaScript -->
+    <script defer src="script.js"></script>
 </head>
 <body>
-    <div class="container mt-5">
+
+    <div class="quiz-wrapper">
         <div class="quiz-container">
-            <h1 class="quiz-title">Advanced Quiz</h1>
-            <div id="question-container">
-                <img id="question-image" src="" alt="Question Image" class="question-image">
+            <h1 class="quiz-title"><i class="fa-solid fa-brain"></i> Ultimate Quiz Challenge</h1>
+            
+            <!-- Question Display -->
+            <div id="question-box">
+                <img id="question-image" class="question-image" src="" alt="Question Image" style="display: none;">
                 <h2 id="question-text"></h2>
                 <div id="options-container"></div>
-                <input type="number" id="integer-answer" class="form-control" placeholder="Enter answer" style="display: none;">
+                <input type="number" id="integer-answer" class="form-control" placeholder="Enter your answer" style="display: none;">
             </div>
-            <button id="next-btn" class="btn btn-primary mt-3" disabled>Next</button>
+
+            <!-- Controls -->
+            <button id="next-btn" class="btn btn-primary mt-3" disabled>Next Question <i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
+
 </body>
 </html>
