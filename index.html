@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JEE Mains Mock Test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Timer -->
+        <div class="timer-container">
+            <h2>Time Left: <span id="timer">00:00</span></h2>
+        </div>
+
+        <!-- Question Navigation Panel -->
+        <div class="nav-panel">
+            <h3>Questions</h3>
+            <div id="question-nav"></div>
+        </div>
+
+        <!-- Main Question Area -->
+        <div class="quiz-container">
+            <h2 id="question-text">Loading Question...</h2>
+            <div id="options-container"></div>
+            <div class="controls">
+                <button id="prev-btn" disabled>Previous</button>
+                <button id="mark-btn">Mark for Review</button>
+                <button id="next-btn">Next</button>
+                <button id="submit-btn">Submit</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let answers = {}; // Stores selected answers
+
+        // Fetch Questions from questions.json
+        fetch('questions.json')
+            .then(response => response.json())
+            .then(data => {
+                questions = data;
+                displayQuestion();
+                createNavButtons();
+                startTimer(1800); // 30-minute timer
+            });
+
+        // Display Question
+        function displayQuestion() {
+            const questionData = questions[currentQuestionIndex];
+            document.getElementById("question-text").innerText = questionData.question;
+            const optionsContainer = document.getElementById("options-container");
+            optionsContainer.innerHTML = "";
+            
+            questionData.options.forEach((option, index) => {
+                const optionBtn = document.createElement("button");
+                optionBtn.classList.add("option");
+                optionBtn.innerText = option;
+                optionBtn.onclick = () => selectAnswer(index);
+                if (answers[currentQuestionIndex] === index) {
+                    optionBtn.classList.add("selected");
+                }
+                optionsContainer.appendChild(optionBtn);
+            });
+
+            updateNavigation();
+        }
+
+        // Select Answer
+        function selectAnswer(index) {
+            answers[currentQuestionIndex] = index;
+            displayQuestion();
+        }
+
+        // Question Navigation System
+        function createNavButtons() {
+            const navPanel = document.getElementById("question-nav");
+            questions.forEach((_, index) => {
+                const btn = document.createElement("button");
+                btn.classList.add("nav-btn");
+                btn.innerText = index + 1;
+                btn.onclick = () => {
+                    currentQuestionIndex = index;
+                    displayQuestion();
+                };
+                navPanel.appendChild(btn);
+            });
+        }
+
+        function updateNavigation() {
+            document.querySelectorAll('.nav-btn').forEach((btn, index) => {
+                btn.classList.remove('answered', 'marked');
+                if (answers[index] !== undefined) {
+                    btn.classList.add('answered');
+                }
+            });
+        }
+
+        // Navigation Buttons
+        document.getElementById("prev-btn").onclick = () => {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        };
+        
+        document.getElementById("next-btn").onclick = () => {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            }
+        };
+
+        document.getElementById("mark-btn").onclick = () => {
+            document.querySelectorAll('.nav-btn')[currentQuestionIndex].classList.add('marked');
+        };
+
+        document.getElementById("submit-btn").onclick = () => {
+            if (confirm("Are you sure you want to submit?")) {
+                alert("Test Submitted!");
+            }
+        };
+
+        // Timer Function
+        function startTimer(seconds) {
+            let timer = document.getElementById("timer");
+            let countdown = setInterval(() => {
+                let min = Math.floor(seconds / 60);
+                let sec = seconds % 60;
+                timer.innerText = `${min}:${sec < 10 ? '0' : ''}${sec}`;
+                if (seconds === 0) {
+                    clearInterval(countdown);
+                    alert("Time's up! Submitting your test.");
+                }
+                seconds--;
+            }, 1000);
+        }
+    </script>
+</body>
+</html>
